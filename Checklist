@@ -1,0 +1,20 @@
+Checklist
+1. Conexão de cabos
+2. Colocar IPs nos PCs
+3. Conectar cabos console aos SW e ao RT
+4. Configuração SW e RT
+5. Hostname
+6. Senhas (Enable, console, VTY)
+7. Criptografar senhas
+8. ip domain-name
+9. Gerar chaves SSH
+Parte física:
+10. Pingar os SWs e RT
+11. Verificar disponibilidade remota
+12. Pegar equipamentos físicos 
+13. Fazer instalação dos SWs e RT
+14. Configurar SWs logicamente
+15. Configurar RT logicameante
+16. Pingar os SWs e RT
+17. Verfificar o acesso remoto por meio do notebook
+
