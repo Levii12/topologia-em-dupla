@@ -10,6 +10,7 @@ enable secret LEONARDO*enable
 service password-encryption
 interface vlan 1
 ip address 172.16.255.254 255.255.0.0
+no shutdown
 exit
 line vty 0 15
 password LEONARDO*vty
