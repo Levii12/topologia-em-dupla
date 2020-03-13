@@ -1,0 +1,25 @@
+enable
+configure terminal
+username DUPLA pvilege 15 secret 123
+hostname RT-01
+no ip domain-lookup
+ip domain-name 1rede.local
+crypto key generate rsa general-key modulus 1024
+enable secret JOAO*enable
+interface gigabitethernet 0/1
+ip address 172.16.0.1 255.255.0.0
+no shutdown 
+interface gigabitethernet 0/0
+ip address 192.268.0.1 255.255.255.0
+no shutdown
+exit
+line vty 0 15
+password JOAO*vty
+login local
+transport input ssh
+exit
+line console 0
+password JOAO*console
+login
+end
+write
