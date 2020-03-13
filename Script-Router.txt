@@ -1,6 +1,6 @@
 enable
 configure terminal
-username DUPLA pvilege 15 secret 123
+username DUPLA privilege 15 secret 123
 hostname RT-01
 no ip domain-lookup
 ip domain-name 1rede.local
